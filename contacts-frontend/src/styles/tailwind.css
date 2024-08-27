@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+  }
+}
