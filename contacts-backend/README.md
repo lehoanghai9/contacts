@@ -1,4 +1,5 @@
-# Contacts FRONTEND
+
+# Contacts BACKEND
 
   
 
@@ -25,7 +26,6 @@ Ensure you have the following installed on your machine:
 ### Installation
 
   
-0.  **First set up the backend**
 
 1.  **Clone the repository**
 
@@ -48,7 +48,8 @@ yarn install
 Create a `.env` file in the root directory of the project and add the following variables:
 
 ```bash
-NEXT_PUBLIC_API_URL = http://localhost:8080
+DATABASE_URL="file:./dev.db"
+PORT=8080
 ```
 4.  **Start the development server:**
 
@@ -62,4 +63,4 @@ yarn dev
 ```
 
 
-Your frontend app wil run on http://localhost:3000
+Your backend app wil run on http://localhost:8080
