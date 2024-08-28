@@ -10,7 +10,7 @@ import {
 import { AnimatePresence, motion } from 'framer-motion'
 
 import { Button } from '@/components/common/button'
-import { Container } from '@/components/Container'
+import { Container } from '@/components/container'
 import { H1 } from '@/components/common/typography'
 import CreateContactDialog from '@/components/create-contact-dialog'
 import Image from 'next/image'

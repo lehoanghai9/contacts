@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { Container } from '@/components/Container'
+import { Container } from '@/components/container'
 import { Contact } from '@/types/contact'
 import Image from 'next/image'
 import defaultProfilePic from '@/images/default-pic.png'
